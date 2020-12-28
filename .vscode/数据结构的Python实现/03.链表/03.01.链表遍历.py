@@ -3,11 +3,12 @@ import sys
 
 #建立链表节点
 class student:
-    name = ''
-    Math = 0
-    Eng = 0
-    no = ''
-    next = None
+    def __init__(self):
+        self.name = ''
+        self.Math = 0
+        self.Eng = 0
+        self.no = ''
+        self.next = None
 
 
 #建立链表头部
